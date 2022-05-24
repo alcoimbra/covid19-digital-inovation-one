@@ -6,7 +6,7 @@ import { getByDisplayValue } from '@testing-library/react'
 
 
 function Board({ data }) {
-    const { case, todayDeaths, recovered, deaths, todayCases } = data
+    const { cases, todayDeaths, recovered, deaths, todayCases } = data
 
     const getValue = (value) => value ? value : <Skeleton variante="text" width={182} height={60} />
 
